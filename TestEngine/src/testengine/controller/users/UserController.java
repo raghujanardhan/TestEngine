@@ -35,6 +35,7 @@ public class UserController extends HttpServlet {
 	String moduleSel[];
 	int recordsPerPage = 10;
 	int page = 1;
+	//Demo
        
     /**
      * @see HttpServlet#HttpServlet()
