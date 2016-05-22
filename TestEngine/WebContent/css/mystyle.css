@@ -1,0 +1,813 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg.jpg',sizingMethod='100%')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg.jpg',sizingMethod='100%');
+
+	background:#789 url('../images/bg.jpg') no-repeat center center fixed;
+	
+	-moz-background-size: cover;
+
+	-webkit-background-size: cover;
+
+	-o-background-size: cover;
+
+	background-size: cover;
+}
+#ser {
+	float:right;
+}
+#vgapdiv10 {
+	width:30%;
+	background:yellow;
+	float:left;
+}
+#createBatchDiv {
+	width: 25%;
+	background:red;
+	float:right;
+	
+}
+#vgapdiv5 {
+	width:5%;
+}
+#nomenu
+{
+	background-image: none;
+    background-position: center top !important;
+    background-repeat: repeat-x;
+    background-color: #1b63ab !important;
+    height: 30px !important;
+    z-index: 100;
+    position: relative;
+    width: 100%;
+    
+}
+}
+#candidatetable {
+  text-align: left;
+    font-size: 14px;
+    color: #585858;
+    font-family: 'Trebuchet MS';
+	width: 100%;
+}
+#listforbatch
+{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#listforbatch th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:#A4A4A4;
+    color: white;
+}
+#gap {
+	height: 30px;
+	
+	
+}
+#gap1 {
+	height: 30px;
+	background-color: #ebebeb;
+	
+}
+#listforbatch td, #listforbatch th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#candidatetable td, #customers th {
+ 	border-right: solid 1px #ebebeb;
+    border-bottom: solid 1px #dadada;
+    padding: 2px 4px 2px 4px;
+    font-size: 14px;
+    color: #585858;
+    font-family: 'Trebuchet MS';
+}
+#candidateSearch {
+	
+	text-align: left;
+    font-size: 14px;
+    color: #585858;
+    font-family: 'Trebuchet MS';
+	
+	
+	
+}
+#candidateSearch td {
+   
+    text-align: left;
+    padding: 4px;
+}
+#searchcand {
+	width:100%;
+	background-color: #ebebeb;
+}
+
+#candidatetable tr:nth-child(even){background-color: #ffffff}
+
+#candidatetable tr:hover {background-color: #ddd;}
+
+#candidatetable th {
+    text-align: left;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Trebuchet MS';
+	background-color:#A4A4A4;
+}
+
+#pagination {
+    text-align: left;
+    font-size: 14px;
+    color: #585858;
+    font-family: 'Trebuchet MS';
+	background-color:#A4A4A4;
+	
+    
+    
+}
+#pagination td, #customers th {
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color:#A4A4A4;
+}
+
+#individualtable{
+	border: 2px solid white;
+	border-radius: 10px;
+	
+	border-color: #FCF8F8;
+	background-color: #FCF8F8;
+    padding-left:10px;
+    padding-right:10px;
+	
+	font-size: 14px;
+    color: #585858;
+    font-family: 'Trebuchet MS';
+	
+     
+    width: 400px;
+    height: 300px;
+	
+}
+
+#batchtable{
+	border: 2px solid white;
+	border-radius: 10px;
+	
+	border-color: #FCF8F8;
+	background-color: #FCF8F8;
+    padding-left:5px;
+    padding-right:5px;
+	
+	font-size: 14px;
+    color: #585858;
+    font-family: 'Trebuchet MS';
+     
+    width: 400px;
+    height: 200px;
+	
+}
+
+img{border: none;}
+
+
+.wrap{width:100%; margin: 0 auto; }
+
+#header{ padding: 20px; background-color: #ffffff; min-height: 50px; }
+#header img{width: 20%; float: left; margin-right: 20px; height: 70px;}
+#header p{font-family: sans-serif; font-size: .8em; font-weight: bold; color: #333; padding-left: 20px; float: left;}	
+
+#search{display: block; float: right; margin: 10px auto;}
+#search button{top: 1px; position: relative;}
+#search input[type=search]{width: 120px; position: relative; left: 10px; background-color: #eee;}
+
+input#submitbtn {
+	border:1px solid #168bd4;
+	webkit-border-radius: 2px;
+	background-color: #168bd4;
+	color: #fff;
+    display: inline-block;
+    font-family: 'Open Sans';
+    font-size: 1em;
+    height: 25px;
+    margin: auto;
+    text-decoration: none;
+    width: auto !important;
+    cursor: pointer;
+    padding: 2px 10px 2px 10px;
+	background: linear-gradient(to bottom, #7fc2eb 0%,#2989d8 50%,#168bd4 100%);
+}
+
+
+/* normal Navigation menu */
+/***************************/
+.toggleMenu {
+    display:  none;
+    background: #0000ff;
+    padding: 10px 0;
+    color: #fff;
+    text-shadow: 1px,2px,1px #fff;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+.nav {
+    list-style: none;
+     *zoom: 1;
+     background:#1b63ab;
+}
+
+
+.nav:before,
+.nav:after {
+    content: " "; 
+    display: table; 
+    border: none;
+}
+.nav:after {
+    clear: both;
+}
+.nav ul {
+    list-style: none;
+    width: 13em;
+
+}
+.nav a {
+    padding: 8px;
+    color:#fff;
+    text-decoration: none;
+}
+.nav li {
+    position: relative;
+    display: block;
+
+
+}
+nav, ul, li, a{margin: 0; padding: 0;}
+
+.nav li a:hover {
+	background-color: #ffffff;
+	color: #C92424;
+}
+.nav li a{font-family: sans-serif; font-size: 14px; 	}
+.nav > li {
+    float: left;
+    
+}
+.nav > li > .parent {
+    
+}
+.nav > li > a {
+    display: block;
+    
+}
+.nav li  ul {
+    position: absolute;
+    left: -9999px;
+    
+}
+.nav li li li a{background: #822; }
+
+.nav > li.hover > ul {
+    left: 0;
+}
+.nav li li.hover ul {
+    left: 100%;
+    top: 0;
+}
+.nav li li a {
+    display: block;
+    background: #1b63ab;
+    position: relative;
+    z-index:100;
+    border-bottom: 1px solid #175e4c;
+	
+
+}
+/* Question DIV */
+
+#questiondiv {
+	
+	margin-left: 8%;
+	width: 32%;	
+	float:left;
+	
+}
+#answerdiv {
+	
+	width: 50%;	
+	float:left;
+	margin-right: 8%;
+	
+}
+#questiontable{
+	
+	width:32%;
+	border:thin;
+
+	
+
+	
+}
+#gapdiv{
+	width: 2%;
+	float:left;
+	
+}
+#answertable
+{
+	width: 50%;	
+	padding-left:10px;
+	padding-right:10px;
+	
+}
+
+/* Question div End*/
+
+
+
+ /* nav ends */
+/***************/
+
+a.call{text-decoration: none; color: #f28; font-size: 12px; display:inline-block; width: 120px; border: 1px solid #444; padding: 4px 6px; font-weight: normal; border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; -o-border-radius: 8px; -ms-border-radius: 8px;}
+a.call:hover{text-decoration: none; font-size: 12px; color: #ff8; border: 1px solid #444; padding: 4px 6px; background: #555;}
+
+
+
+#slide{float: left; margin-bottom: -50px;}
+.rslide_container{width: 100%;  padding: 0; float: left;}
+#Left-main{width: 669px; float: left; padding: 8px 15px; margin: 0;}
+#Left-main h1{font-family: verdana; font-size: 22px; font-weight: bolder; color: #086A87;}
+#Left-main h2{font-family: verdana; font-size: 18px; font-weight: bold; color: #086A87;}
+#Left-main p{font-family: verdana; font-size: 12px; font-weight: lighter; color: #000;}
+#Left-main ul li{font-family: verdana; font-size: 12px; font-weight: bolder; color: #000; margin-left: 15px; }
+
+#aside {width: 250px; padding: 8px 15px; float: left; margin: 0; border-left: 1px solid #bbb; }
+#aside h1, h2{color: #086A87;}
+#req{background-color: #ccc; height: auto; padding:15px 0; width: 250px;}
+form label{font-family: verdana; font-size: 10px; float: left; margin-left: 10px; font-weight: bold; margin-top: 5px;}
+form input[type=text]{width: 220px; float: left; margin-left: 10px;}
+form textarea{margin-left: 10px;}
+form button{margin-left: 10px; margin-top: 5px;}
+
+#footer{width: 100%; opacity: .8; height: auto; padding: 15px; text-align: center; display: block; float: left; background-color: #1b63ab;}
+#footer ul {display: block; width: 100%; }
+#footer li{display: inline; list-style-type: none; margin-right: 20px; margin-bottom: 20px;}
+#footer li a:hover{opacity: .6}
+#footer h1{font-family: courier; font-size: 38px; font-weight: normal; color: #eee;}
+#footer p{font-size: 12px; font-family: verdana; color: #eee;}
+#footernote {width: 950px; padding: 15px; float: left;}
+p.left{float: left;}
+p.right{float: right;}
+p.right a{text-decoration: none; font-family: sans-serif; font-weight: bold; color: #111;}
+p.right a:hover{color: #ff7;}
+
+#content{width: 100%; float: left;background-color: #ebebeb; padding-bottom: 10px; height: 100%;}
+
+#non h1{font-family: 'Lato', serif; font-size: 26px; font-weight: bolder; color: #02353B;}
+#non h2{font-family: 'Lato', sans-serif; font-size: 25px; font-weight: lighter; color: #f53;}
+#non p{font-family: verdana; font-size: 12px; font-weight: lighter; color: #000;}
+#non ol li{font-family: verdana; font-size: 12px; font-weight: bolder; color: #000; margin-left: 15px;}
+#non{width: 669px;float: left; padding: 8px 15px; }
+#non ol li a{text-decoration: none; font-size: 12px; color: #000; line-height: 29px;}
+#non ol li a:hover{color: #E00816;}
+
+.camera_wrap {
+			margin: 0 auto;
+			max-width: 650px;
+			width: 90%;
+			height: 400px;
+			display: block;
+			float: left;
+			opacity: 1.5;
+			margin-bottom: 30px;
+			position: relative;
+		}
+.camera_caption a{text-decoration: none; color: #2b3;}
+.camera_caption a:hover{text-decoration: none; color: #a63;}
+#pg-slide p{font-family: 'Open sans', sans-serif; color: #111; font-size: 18px; line-height: 15px;}
+
+#sip-cnt{width: 210px; height: 230px; background: #D3CB2D; padding: 20px 20px;}
+#sip-cnt p{font-family: sans-serif; font-size: 12px; font-weight: lighter; margin: 0; padding: 5px; }
+#sip-cnt a{text-decoration: none; font-family: verdana; color: #D32D46;}
+#sip-cnt a:hover{color: #095B03;}
+
+#glb-cnt{width: 210px; height: 330px; background: #D3CB2D; padding: 20px 20px;}
+#glb-cnt p{font-family: sans-serif; font-size: 12px; font-weight: lighter; margin: 0; padding: 5px; }
+#glb-cnt a{text-decoration: none; font-family: verdana; color: #D32D46;}
+#glb-cnt a:hover{color: #095B03;}
+
+#sai-cnt{width: 210px; height: 740px; background: #D3CB2D; padding: 20px 20px;}
+#sai-cnt p{font-family: sans-serif; font-size: 12px; font-weight: lighter; margin: 0; padding: 5px; }
+#sai-cnt a{text-decoration: none; font-family: verdana; color: #D32D46;}
+#sai-cnt a:hover{color: #095B03;}
+
+#l-map{width: 250px; height: 250px; display: block; background:#D3CB2D; }
+#map1{position:relative; z-index: 122; width: 230px; height: 220px; margin: 0 auto; top: 13px;}
+
+#bann{width: 980px; height: 100px; display: block; position: relative; background: url('../images/ban.jpg') no-repeat top left;}
+.lb{padding-left: 30px; line-height: 10px; font-family: 'Loto', opcaity: 1; sans-serif; color: #439C5D; font-size: 16px; font-weight: bolder; text-decoration: underline;}
+
+#sip-ban{width: 980px; height: 100px; display: block; position: relative; background: url('../images/sip-ban.jpg') no-repeat top left;}
+
+#inc-ban{width: 980px; height: 100px; display: block; position: relative; background: url('../images/inc-ban.jpg') no-repeat top left;}
+
+#med-ban{width: 980px; height: 100px; display: block; position: relative; background: url('../images/med-ban.jpg') no-repeat top left;}
+
+#sai-ban{width: 980px; height: 100px; display: block; position: relative; background: url('../images/sai-ban.jpg') no-repeat top left;}
+#siri-ban{width: 980px; height: 100px; display: block; position: relative; background: url('../images/siri-ban.jpg') no-repeat top left;}
+#big-ban{width: 980px; height: 100px; display: block; position: relative; background: url('../images/big-ban.jpg') no-repeat top left;}
+#neha-ban{width: 980px; height: 100px; display: block; position: relative; background: url('../images/neha-ban.jpg') no-repeat top left;}
+#swd-ban{width: 980px; height: 100px; display: block; position: relative; background: url('../images/swd-ban.jpg') no-repeat top left;}
+#ma-ban{width: 980px; height: 100px; display: block; position: relative; background: url('../images/ma-ban.jpg') no-repeat top left;}
+#gi-ban{width: 980px; height: 100px; display: block; position: relative; background: url('../images/gi-ban.jpg') no-repeat top left;}
+#glb-ban{width: 980px; height: 100px; display: block; position: relative; background: url('../images/glb-ban.jpg') no-repeat top left;}
+#thi-ban{width: 980px; height: 100px; display: block; position: relative; background: url('../images/thi-ban.jpg') no-repeat top left;}
+#bak-ban{width: 980px; height: 100px; display: block; position: relative; background: url('../images/bak-ban.jpg') no-repeat top left;}
+#tm-ban{width: 980px; height: 100px; display: block; position: relative; background: url('../images/tm-ban.jpg') no-repeat top left;}
+#vir-ban{width: 980px; height: 100px; display: block; position: relative; background: url('../images/vir-ban.jpg') no-repeat top left;}
+#bhy-ban{width: 980px; height: 100px; display: block; position: relative; background: url('../images/bhy-ban.jpg') no-repeat top left;}
+#grn-ban{width: 980px; height: 100px; display: block; position: relative; background: url('../images/grn-ban.jpg') no-repeat top left;}
+#pre-ban{width: 980px; height: 100px; display: block; position: relative; background: url('../images/pre-ban.jpg') no-repeat top left;}
+#gm-ban{width: 980px; height: 100px; display: block; position: relative; background: url('../images/gm-ban.jpg') no-repeat top left;}
+#nai-ban{width: 980px; height: 100px; display: block; position: relative; background: url('../images/nai-ban.jpg') no-repeat top left;}
+#saf-ban{width: 980px; height: 100px; display: block; position: relative; background: url('../images/saf-ban.jpg') no-repeat top left;}
+
+
+
+img.chem{width: 33%; margin-right: 15px; margin-top: 16px; float: left;}
+
+img.gmit{width: 24%; margin-right: 15px; margin-top: 1px; margin-bottom: 15px; float: left;}
+
+#hd{width: 670px; height: 91px; padding:0 5px; background:#ccc url('../places/hd.jpg') no-repeat top left;}
+#hd h2{color: #eee; font-size: 36px; font-family: 'Lote', open sans; font-weight: lighter; display: block; position: relative; top: 20px; left: 20px;}
+img.pimg{width: 60%; margin-right: 5px; margin-bottom: 5px; float: left;}
+img.limg{width: 70%; float: left; padding: 7px;}
+ul.swd{font-size: 15px; margin-left: 30px; }
+ul.swd li{margin-bottom: 5px; margin-top: 5px;}
+ul.grn li{margin-left: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*end of main CSS rules----> */
+/*media queries starts from here----> */
+
+@media screen and (max-width: 979px){
+	body{background : none;}
+	.wrap{width: 100%; }
+	#header{width: 98%; padding: 2%;}
+	#logo img{width: 35%;}
+	#slogan p{font-size: .7em;}
+	#search button{top: 1px; position: relative;}
+	#content{opacity: 1;}
+	
+	.active {
+        display: block;
+    }
+    .nav > li {
+        float: none;
+    }
+    .nav > li > .parent {
+        background-position: 95% 50%;
+    }
+    .nav li li .parent {
+        background: url('../images/downArrow.png') no-repeat 95% 50%;
+        
+        
+    }
+    .nav li li .parent{background-color: #083;}
+
+    .nav li .parent { background: url('../images/downArrow.png') no-repeat 95% 50%;}
+    .nav ul {
+        display: block;
+        width: 100%;
+    }
+   .nav > li.hover > ul , .nav li li.hover ul {
+        position: static;
+    }
+    .nav li li li {width: 98%; margin: 0 auto;}
+
+        a.call{width: 130px; display:block; margin: 8px 0;}
+        .cent{text-align: center;}
+	#Left-main{width: 95%; height: 100%; display: block; }
+	#aside{width: 95%; height: 100%; display: block; border: none;}
+	#req{width: 98%; background-color: #ccc; height: auto; float: left; padding: 10px 0; margin: 0;}
+	form label{font-family: verdana; font-size: 12px; font-weight: bold; display: block; width: 100%; float: left; margin-left: 10px; margin-top: 5px;}
+	form input[type=text]{width: 94%; float: left; margin-left: 10px; margin-right: 0; padding: 0}
+	form textarea{margin-left: 10px; float: left; width: 94%}
+	form button{margin-left: 10px; margin-top: 4px; float: left;}
+
+	#sip-cnt{width: 95%;}
+	#glb-cnt{width: 95%;}
+	#sai-cnt{width: 95%;}
+	#l-map{width: 100%;}
+	#map1{width: 96%; }
+
+	#search{display: block; margin: 0; position: relative; right: 20px;}
+	#search button{margin-top: -2px; float: right;}
+	#search input[type=search]{width: 120px; position: relative; left: 8px; background-color: #eee;}
+
+
+	#footer{width: 100%; margin: 0; padding: 0;}
+	#footer ul {display: block; width: 100%; }
+	#footer li{display: inline; list-style-type: none; margin-right: 20px; margin-bottom: 20px;}
+	#footer li a:hover{opacity: .6}
+	#footer h1{font-family: courier; font-size: 38px; font-weight: normal; color: #eee;}
+	#footer p{font-size: 12px; font-family: verdana; color: #eee;}
+	#footer img{width: 5%;}
+	#footernote {width: 100%; }
+	p.left, p.right{display: block; width: 100%;}
+
+	
+	#content{width: 100%; padding:1%; margin: 0 auto; opacity: none; height:100%;}
+	#non{width: 95%; height: 100%; display: block;}
+	#bann{width: 100%; height: 80px; background: url('../images/ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#sip-ban{width: 100%; height: 80px; background: url('../images/sip-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#inc-ban{width: 100%; height: 80px; background: url('../images/inc-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#med-ban{width: 100%; height: 80px; background: url('../images/med-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#sai-ban{width: 100%; height: 80px; background: url('../images/sai-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#siri-ban{width: 100%; height: 80px; background: url('../images/siri-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#big-ban{width: 100%; height: 80px; background: url('../images/big-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#neha-ban{width: 100%; height: 80px; background: url('../images/neha-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#swd-ban{width: 100%; height: 80px; background: url('../images/swd-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#ma-ban{width: 100%; height: 80px; background: url('../images/ma-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#gi-ban{width: 100%; height: 80px; background: url('../images/gi-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#glb-ban{width: 100%; height: 80px; background: url('../images/glb-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#thi-ban{width: 100%; height: 80px; background: url('../images/thi-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#bak-ban{width: 100%; height: 80px; background: url('../images/bak-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#tm-ban{width: 100%; height: 80px; background: url('../images/tm-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#vir-ban{width: 100%; height: 80px; background: url('../images/vir-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#bhy-ban{width: 100%; height: 80px; background: url('../images/bhy-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#grn-ban{width: 100%; height: 80px; background: url('../images/grn-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#pre-ban{width: 100%; height: 80px; background: url('../images/pre-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#gm-ban{width: 100%; height: 80px; background: url('../images/gm-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#nai-ban{width: 100%; height: 80px; background: url('../images/nai-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#saf-ban{width: 100%; height: 80px; background: url('../images/saf-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	
+
+
+	img.chem{width: 30%; margin-right: 15px; margin-top: 16px; margin-bottom:10px; float: left; clear: both;}
+	img.gmit{width: 14%; margin-right: 15px; margin-top: 1px; margin-bottom:10px; float: left; clear: both;}
+
+
+	#hd{width: 100%; background-size: cover; padding: 0; margin: 0;}
+	#hd h2{font-size: 1.5em;}
+	.camera_wrap {max-width: 100%;}
+	img.pimg{width: 60%; position: relative; left: 130px; float: none;}
+	img.limg{width: 60%; float: left; padding: 7px;}
+	
+	
+	
+  
+
+}
+
+
+
+/*640 and below */
+@media screen and (max-width: 640px){
+	#header{width: 100%; padding: 40px 0; margin: 0;}
+	#header p{display: block; float: left; font-size: .6em;}
+	#header img{width: 30%; margin-left: 80px;}
+	#search{position: relative; right: 20px; }
+	#search input[type=search]{width: 80px; position: relative; left: 8px; background-color: #eee;}
+
+	#Left-main{width: 100%; }
+	#aside{width: 95%; }
+	#req{width: 98%; background-color: #ccc; height: auto; }
+	form input[type=text]{width: 93%; float: left; margin-left: 10px; margin-right: 0; padding: 0}
+	form textarea{margin-left: 10px; float: left; width: 93%}
+	#footer{width: 100%; margin: 0; padding: 0; }
+	#footer h1{font-family: courier; font-size: 28px; font-weight: normal; color: #eee;}
+	#footer p{font-size: 12px; font-family: verdana; color: #eee;}
+	#footer img{width: 5%;}
+	#content{width: 100%; height: 100%; padding: 1%;}
+	#non{width: 95%; float: left; }
+
+	 .nav ul {
+        display: block;
+        width: 100%;
+    }
+
+    #bann{width: 100%; height: 50px; background: url('../images/ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#sip-ban{width: 100%; height: 60px; background: url('../images/sip-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#inc-ban{width: 100%; height: 60px; background: url('../images/inc-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#med-ban{width: 100%; height: 60px; background: url('../images/med-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#sai-ban{width: 100%; height: 60px; background: url('../images/sai-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#siri-ban{width: 100%; height: 60px; background: url('../images/siri-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#big-ban{width: 100%; height: 60px; background: url('../images/big-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#neha-ban{width: 100%; height: 60px; background: url('../images/neha-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#swd-ban{width: 100%; height: 60px; background: url('../images/swd-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#ma-ban{width: 100%; height: 60px; background: url('../images/ma-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#gi-ban{width: 100%; height: 60px; background: url('../images/gi-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#glb-ban{width: 100%; height: 60px; background: url('../images/glb-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#thi-ban{width: 100%; height: 60px; background: url('../images/thi-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#bak-ban{width: 100%; height: 60px; background: url('../images/bak-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#tm-ban{width: 100%; height: 60px; background: url('../images/tm-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#vir-ban{width: 100%; height: 60px; background: url('../images/vir-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#bhy-ban{width: 100%; height: 60px; background: url('../images/bhy-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#grn-ban{width: 100%; height: 60px; background: url('../images/grn-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#pre-ban{width: 100%; height: 60px; background: url('../images/pre-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#gm-ban{width: 100%; height: 60px; background: url('../images/gm-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#nai-ban{width: 100%; height: 60px; background: url('../images/nai-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	#saf-ban{width: 100%; height: 60px; background: url('../images/saf-ban.jpg') center center cover no-repeat fixed; background-size:100%; }
+	
+
+
+	img.chem{width: 55%; margin: 0 auto; float: none; position: relative; left: 20%;}
+	img.gmit{width: 55%; margin: 0 auto; float: none; position: relative; left: 20%;}
+	
+	#hd{width: 98%; background-size: cover; padding: 0; margin: 0;}
+	#hd h2{font-size: 1.4em;}
+
+	.camera_wrap {max-width: 98%;}
+	#sip-cnt{width: 90%;}
+	#glb-cnt{width: 90%;}
+	#sai-cnt{width: 90%;}
+	#l-map{width: 98%;}
+	#map1{width: 96%; }
+
+	img.pimg{width: 80%; position: relative; left: 50px; float: none;}
+	img.limg{width: 80%; float: left; padding: 7px;}
+
+
+
+}
+
+ .web_dialog_overlay
+        {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background: #000000;
+            opacity: .15;
+            filter: alpha(opacity=15);
+            -moz-opacity: .15;
+            z-index: 101;
+            display: none;
+        }
+        .web_dialog
+        {
+            display: none;
+            position: fixed;
+            width: 480px;
+            height: 400px;
+            top: 30%;
+            left: 50%;
+            margin-left: -190px;
+            margin-top: -100px;
+            background-color: #ffffff;
+            border: 2px solid #336699;
+            padding: 0px;
+            z-index: 102;
+            font-family: Verdana;
+            font-size: 10pt;
+        }
+        .web_dialog_title
+        {
+            border-bottom: solid 2px #336699;
+            background-color: #336699;
+            padding: 4px;
+            color: White;
+            font-weight:bold;
+        }
+        .web_dialog_title a
+        {
+            color: White;
+            text-decoration: none;
+        }
+        .align_right
+        {
+            text-align: right;
+        }
+
+
+
+
+
+/* 480 and below */
+@media screen and (max-width: 480px){
+	#header img{width: 50%; margin: 0 50px;}
+	#header{width: 100%; padding: 40px 0;}
+	#search{float: left; display: block; position: relative; left: 80px; }
+	#search input[type=search]{width: 60px; position: relative; left: 8px; background-color: #eee;}
+	#Left-main{width: 95%; }
+	#aside{width: 95%;}
+	#req{background-color: #ccc; height: auto; width: 96%;}
+	form input[type=text]{width: 92%; float: left; margin-left: 10px; margin-right: 0; padding: 0}
+	form textarea{margin-left: 10px; float: left; width: 92%}
+	#footer{width: 98%; padding: 5px; margin: 0;}
+	#footer h1{font-family: courier; font-size: 25px; font-weight: normal; color: #eee; }
+	#footer img{width: 5%;}
+	#content{width: 100%; padding: 1%; }
+	#sip-cnt{width: 85%;}
+	#glb-cnt{width: 85%;}
+	#sai-cnt{width: 85%;}
+	#l-map{width: 96%;}
+	#map1{width: 93%; }
+	img.chem{width: 55%; margin: 0 auto; float: none;}
+	img.gmit{width: 55%; margin: 0 auto; float: none;}
+
+	#hd{width: 96%; background-size: cover; padding: 0; margin: 0;}
+	#hd h2{font-size: 1.3em;}
+	img.pimg{width: 80%; position: relative; left: 30px; float: none;}
+	img.limg{width: 80%; float: left; padding: 7px;}
+
+	.nav ul {
+        display: block;
+        width: 100%;
+    }
+
+    #bann{width: 100%; height: 40px; background: url('../images/ban.jpg') center center cover no-repeat fixed;  }
+	#sip-ban{width: 100%; height: 45px; background: url('../images/sip-ban.jpg') center center cover no-repeat fixed;  }
+	#inc-ban{width: 100%; height: 45px; background: url('../images/inc-ban.jpg') center center cover no-repeat fixed;  }
+	#med-ban{width: 100%; height: 45px; background: url('../images/med-ban.jpg') center center cover no-repeat fixed;  }
+	#sai-ban{width: 100%; height: 45px; background: url('../images/sai-ban.jpg') center center cover no-repeat fixed;  }
+	#siri-ban{width: 100%; height: 45px; background: url('../images/siri-ban.jpg') center center cover no-repeat fixed;  }
+	#big-ban{width: 100%; height: 45px; background: url('../images/big-ban.jpg') center center cover no-repeat fixed;  }
+	#neha-ban{width: 100%; height: 45px; background: url('../images/neha-ban.jpg') center center cover no-repeat fixed;  }
+	#swd-ban{width: 100%; height: 45px; background: url('../images/swd-ban.jpg') center center cover no-repeat fixed;  }
+	#ma-ban{width: 100%; height: 45px; background: url('../images/ma-ban.jpg') center center cover no-repeat fixed;  }
+	#gi-ban{width: 100%; height: 45px; background: url('../images/gi-ban.jpg') center center cover no-repeat fixed;  }
+	#glb-ban{width: 100%; height: 45px; background: url('../images/glb-ban.jpg') center center cover no-repeat fixed;  }
+	#thi-ban{width: 100%; height: 45px; background: url('../images/thi-ban.jpg') center center cover no-repeat fixed;  }
+	#bak-ban{width: 100%; height: 45px; background: url('../images/bak-ban.jpg') center center cover no-repeat fixed;  }
+	#tm-ban{width: 100%; height: 45px; background: url('../images/tm-ban.jpg') center center cover no-repeat fixed;  }
+	#vir-ban{width: 100%; height: 45px; background: url('../images/vir-ban.jpg') center center cover no-repeat fixed;  }
+	#bhy-ban{width: 100%; height: 45px; background: url('../images/bhy-ban.jpg') center center cover no-repeat fixed;  }
+	#grn-ban{width: 100%; height: 45px; background: url('../images/grn-ban.jpg') center center cover no-repeat fixed;  }
+	#pre-ban{width: 100%; height: 45px; background: url('../images/pre-ban.jpg') center center cover no-repeat fixed;  }
+	#gm-ban{width: 100%; height: 45px; background: url('../images/gm-ban.jpg') center center cover no-repeat fixed;  }
+	#nai-ban{width: 100%; height: 45px; background: url('../images/nai-ban.jpg') center center cover no-repeat fixed;  }
+	#saf-ban{width: 100%; height: 45px; background: url('../images/saf-ban.jpg') center center cover no-repeat fixed;  }
+	
+
+
+
+
+}
+.user-icn{
+	background: url('../images/rightIcons.png') no-repeat -125px 5px;
+	height: 30px;
+	width: 30px;
+	background-size: 150px;	
+	cursor:pointer;
+	margin-left: 10px;
+}
+.Cimm-ColumnLeft-Content{
+	background-color:#fff; 
+	min-height:780px;
+	padding: 10px 0px 10px 10px;
+}
+
+.cimm_boxShadow{
+	-moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+}
+.leftSliderPop{
+position:relative; 
+left:0px;
+-webkit-transition:1s;
+transition:1s;
+-moz-transition:1s;
+overflow:hidden;
+}
+
+
+.contentWrap, .Cimm-Column-Wrap {
+		position:relative;
+		min-height: 800px;
+		background-color:#ebebeb;
+	} 
+	
+.topContent {
+		width: 98%;
+		padding: 0;
+		margin: auto;
+	}
+		

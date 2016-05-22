@@ -1,0 +1,526 @@
+@CHARSET "ISO-8859-1";
+@charset "utf-8";
+
+.Cimm-MainContainer{
+	width:100%;
+background-color:#ebebeb;
+}
+
+.Cimm-MainContent{
+	margin-top:100px;
+	min-height:740px;
+	padding:0.5%;
+	overflow:hidden; 
+}
+
+.Cimm-ColumnLeft-Top, .Cimm-ColumnCenter-Top, .Cimm-ColumnRight-Top{
+	height:50px;
+}
+
+.Cimm-Column-Left{
+	float:left; 
+	width:18%; 
+}
+
+.Cimm-Column-Center{
+	float:left; 
+	width:60%;
+	margin:0 35px;
+	position:relative;
+	overflow:auto;
+}
+
+.Cimm-Column-Right{
+	float:right; 
+	width:18%;
+}
+
+.Cimm-ColumnLeft-Content{
+	background-color:#fff; 
+	min-height:780px;
+	padding: 10px 0px 10px 10px;
+}
+
+.Cimm-ColumnRight-Content{
+	background-color:#fff; 
+	min-height:780px;
+	padding:10px 10px 10px 0px;
+	z-index:2;
+}
+
+.removeLeftPanel{
+	width: 80%;
+	margin: 0 10px;
+}
+
+.breadcrumb{
+	padding:15px 0px; 
+}
+
+/* ITEM SEARCH PAGE */ 
+ .adv-search-wrap{
+	padding:10px 0px;
+}
+
+.adv-search-body > select{
+	width:100%;
+	margin:5px 0px;
+	background-color:#ededed;
+}
+
+.adv-search-btn{
+	text-align: center;
+	margin:10px 0 5px 0;
+}
+
+.attr-search-panel-header{
+	padding:10px;
+	cursor: pointer;
+	border-bottom:1px solid #ccc;
+	text-align: center;
+}
+
+.attr-search-panel-body{
+	padding:10px 0; 
+}
+
+.attr-brand-search{
+	padding:0;
+}
+
+.adv-search-lbl{
+	float:left; 
+}
+
+.togglePlusIcon{
+	background: url('../images/small/add.png') no-repeat;
+	height:18px; 
+	width:18px;
+	float:right;
+}
+
+.toggleMinusIcon{
+	background: url('../images/small/minus.png') no-repeat;
+	height:18px; 
+	width:18px;
+	float:right;
+}
+
+.searchTxtWrap{
+	padding:5px 0px;
+}
+
+.searchTxtWrap > input[type="text"]{
+	width:100%;
+	height:32px;
+	background-color:#ededed;
+}
+
+.attr-search-header, .manufacturer-search-header,.attr-search-header1, .manufacturer-search-header1, .subset-search-header, .supplier-search-header,.attribute-search-header{
+	background-color: #dadada;
+	margin-bottom:5px;
+	padding:10px;
+	cursor:pointer;
+}
+
+.advSearchHeader{
+	background-color: #dadada;
+	margin-bottom:5px;
+	padding:8px 10px;
+}
+
+.adv-search-btn{
+	text-align: center;
+	margin-bottom:10px;
+}
+
+.taxonomyVerCombo{
+	float:left; 
+}
+
+.editTaxonomyWrap{
+	padding:10px 5px;
+	float:left;
+}
+
+.displayRecords{
+	/* float: right; */ 
+	width:150px;
+	margin-top:10px;
+	margin-right: 20px;
+	text-align:right;
+}
+
+.displayStatus{
+	float:left;
+	margin-left: 15px;
+}
+
+.displayStatus > ul > li, .displayStatus > ul > li > p, .displayStatus > ul > li > span, .displayStatus > ul > li > div{
+	display:inline;
+}
+
+.displayStatus > ul > li > span{
+	margin: 13px 0 0 20px;
+	float: left;
+}
+
+.displayStatus > ul > li > p{
+	margin: 15px 0 0 20px;
+	float: left;
+}
+.displayStatusRight{
+	float:right; 
+	}
+	
+.displayStatusRight > ul li{
+	float:left; 
+	}
+	
+.displayStatusRight > ul > li > div{
+	display:inline-block;
+	}
+.comboBoxGrey{
+	border:0px; 
+	background-color:#ededed; 
+	outline:none;
+	cursor:pointer;
+}
+
+.comboBoxGrey select{
+	background-color:#ededed; 
+	border-color:#ededed;
+}
+
+.workbookWrap{
+	float:left; 
+	padding:8px 0px;
+}
+.dynamicAttrTitle{
+	padding: 8px 10px;
+	/*background: #ededed; */ 
+	background:#dadada;
+	margin:2px 0px;
+}
+.refinedAttributesStrip{
+	line-height: 30px;
+	display: block;
+	margin-bottom: 2px;
+	background: #E3EEFC;
+	padding-left: 10px;
+}
+
+.advanceSearchCompress{
+	width:340px;
+	height:777px;
+	background:#fff;
+	position:absolute;
+	right:9px;
+	top:170px;
+	z-index:1;
+	-webkit-transition: 1s;
+	transition: 1s;	
+	-moz-transition: 1s;
+	
+	visibility:hidden;
+}
+
+.advanceSearchExpand{
+	width:340px;
+	height:777px;
+	background:#fff;
+	position:absolute;
+	right:350px;
+	top:170px;
+	z-index:1;
+	-webkit-transition: 1s;
+	transition: 1s;	
+	-moz-transition: 1s;
+	
+	visibility:visible;
+}
+
+/*
+.searchPanelPushRight{
+	width:340px;
+	height:777px;
+	background:#fff;
+	position:absolute;
+	right:15px;
+	top:170px;
+	z-index:1;
+	-webkit-transition: 1s;
+	transition: 1s;	
+	-moz-transition: 1s;
+	
+	visibility:visible;
+}
+
+.searchPanelPushLeft{
+	width:340px;
+	height:764px;
+	background:#fff;
+	position:absolute;
+	right:346px;
+	top:170px;
+	z-index:1;
+	-webkit-transition: 1s;
+	transition: 1s;	
+	-moz-transition: 1s;
+	
+	visibility:visible;
+}
+*/
+
+
+
+.advancedSearchPanelContent{
+	margin:10px;
+}
+
+.cimmSearch > ul > li{
+	display:inline; 
+}
+
+.cimmSearch > ul > li > div{
+	display:inline;
+}
+
+.cimmSearchTxt > input[type="text"]{
+	background-color:#dadada;
+	padding:5px;
+	height: 30px;
+}
+
+.searchBoxWidth{
+	width:80%;
+}
+
+.refreshIcon{
+	float:right;
+}
+
+.RowHighlight1{
+	background-color: transparent;
+}
+
+.treeheader-right-content{
+	padding: 0 !important;
+}
+
+.itemSearch_paginationForm{
+	width:60%;
+	margin-left:375px;
+}
+
+.action-btn-red{
+	font-size:12px;
+}
+
+ul.treeActionBtnWrap{
+	Width:100%;
+	float:left; 
+	margin-top: 10px;
+}
+
+ul.treeActionBtnWrap > li, ul.treeActionBtnWrap > li > div{
+	display:inline-block;
+}	
+					
+.advSearchCombo{
+	width:100%; 
+	background:#ededed;
+}
+
+.advancedSearchBtn{
+	margin:20px 0px;
+	text-align:center;
+}
+
+.advSearchBoxWidth{
+	width:100%;
+}
+
+.goToAdvSearchPanel{
+	cursor:pointer;
+	float:left;
+}
+
+.hideAttsearchMoreLink{
+	display:none;
+}
+
+.advSrcLabelTop{
+	float:left; 
+	margin-left:70px;
+}
+
+.advancedSearchPanelContent > table > tbody > tr{
+	height:20px;
+}
+
+.advancedSearchLabelBgColor{
+	background: #dadada;
+	padding:0px 4px;
+}
+
+/* product info tab */
+.prodInfoTab_nameCol{
+	text-align:center;
+	width:80px;
+}
+
+
+.itemCustomFieldTab_table > tbody > tr {
+	height:30px;
+}	
+
+.taxonomyTreeRefreshIcon{
+	position: relative;
+	top: 8px;
+	left: 2px;
+	padding: 4px;
+	
+}
+
+.editItemTaxTreeRefreshIcon{
+	position: relative;
+	padding: 5px;
+	top: -4px;
+}
+
+.imageEditorContainer {
+	height: 740px;
+	background: #fff;
+	position: absolute;
+	width: 96%;
+	right: 2%;
+	top: 115px;
+	z-index: 10;
+}
+.imageEditorContent{
+	width: 99%;
+	float: none;
+	padding-left: 10px;
+}
+.browseIcon{
+	padding: 1px 13px 5px 9px;
+	margin: 2px 2px 2px 10px;
+	background:url('../images/small/upload.png') no-repeat;
+	outline:none;
+}
+
+.imageEditorCloseBtn{
+	float:right; 
+	cursor:pointer;
+	background:url('../images/small/close.png') no-repeat;
+	height:20px; 
+	width:20px;
+	margin: 8px 5px 5px 5px;
+}
+
+.attributesGenValWrap{
+	line-height:25px;
+	
+}
+
+.loggedInUser{
+	padding: 7px 40px 7px 10px;
+	font-size:12px;
+}
+
+.disableAttrSearch{
+	display:none;
+}
+
+.enableAttrSearch{
+	display:block;
+}
+
+.enableAttsearchMoreLink{
+	display:block; 
+}
+
+.disableAttsearchMoreLink{
+	display:none;
+}
+
+.advanceSearchExpandToggle {
+	width: 340px;
+	height: 777px;
+	background: #fff;
+	position: absolute;
+	right: 15px;
+	top: 170px;
+	z-index: 1;
+	-webkit-transition: 1s;
+	transition: 1s;
+	-moz-transition: 1s;
+	visibility: visible;
+}
+
+.cimmReleaseNoteContentWrap{
+	padding:10px;
+	min-height: 750px;
+}
+
+.expndSearchTitle{
+	padding: 5px 0px 10px 0px;
+	text-align: center;
+	border-bottom: 1px solid #999;
+}
+
+.iconActionWrap{
+	padding:2%;
+	width:98%; 
+}
+
+.iconActionColFirst{
+	width:33%;
+	float:left;
+	padding-left:0%; 
+	
+}
+.iconActionColSec{
+	width:33%;
+	float:left;
+	padding-left:2%; 
+}	
+.iconActionColThird{
+	width:33%;
+	float:left; 
+	padding-left:2%;
+}	
+					
+.iconActionColFirst > table > thead > tr > th, .iconActionColSec > table > thead > tr > th, .iconActionColThird > table > thead > tr > th{
+	font-size:13px;
+}
+
+.iconActionColFirst table tr td, .iconActionColSec table tr td, .iconActionColThird table tr td {
+	padding:5px;
+}
+
+.iconActionColFirst table tr td:nth-child(2), .iconActionColSec table tr td:nth-child(2), .iconActionColThird table tr td:nth-child(2)  {
+	/*text-align: left; */
+	padding-left:30px;
+}
+
+.iconActionColFirst > table > thead > tr > th:nth-child(2), 
+.iconActionColSec > table > thead > tr > th:nth-child(2), 
+.iconActionColThird > table > thead > tr > th:nth-child(2){
+	padding-left:30px;
+}
+
+/* General info tab*/
+.editItem_displayOn{
+	width:32%;
+	margin-right:60px;
+}
+.editItem_dropShip{
+	width:105px;
+	margin-right:50px;
+}
+.editItem_print{
+	width:117px;
+}
+

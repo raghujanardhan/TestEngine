@@ -1,0 +1,1727 @@
+.deviceMenu {
+		display: none;
+        width: 30px;
+        float: right;
+        text-align: center;
+		margin: 50px 20px 0 0;
+	}
+	
+	.deviceMenu span {
+		cursor:pointer;
+	}
+	
+	.deviceMenu span i {
+		font-size: 30px;
+	}
+	
+	.deviceMenuContent {
+		display: none;
+		width: 100%;
+		position: fixed;
+		top: 100px;
+		left: 0;
+		z-index: 5999;
+	}
+	
+	.deviceMenuContent > ul {
+		height: 50px;
+		background: #fff;
+	}
+	
+	.CloseMenuBtn {
+		font-size: 24px;
+		cursor: pointer;
+		margin-left: 10px;
+	}
+.cimm_popRightMenu{
+	display:none;
+	position:absolute;
+	left: -25px;
+	top: 0;
+	z-index: 0;
+	width: 30px;
+	height: 30px;
+	padding: 6px;
+	background:#FFF;
+	}
+	
+.BannerSearchBox {
+	float: right !important;
+}
+
+#errDiv,#SEOPreview, #SEOURL, #SEOdescription, #SEOURL, #SEOKeywords {
+	width: 100%;
+	word-break: break-word;
+}
+
+#SEOPageTitle textarea, #SEOdescription textarea, #SEOURL textarea, #SEOKeywords textarea {
+	width: 100%;
+}
+.blue-menuLinks{
+	display: none;
+	width: 100%;
+	position: fixed;
+	top: 100px;
+	left: 0;
+	z-index: 599;
+	background: #1b63ab;
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width:1800px) and (min-width:1366px) {
+.custom-export-widget{
+	float:left;
+	width: 45%;
+}
+.custom-export-mapformat{
+	width: 33%;
+	float: left;	
+}	
+.ListDataSyncWrap,.setMarginZero{
+	margin-top:0 !important;
+}
+.workbookUtilTreeWrap{
+	 width:30%;
+	 float:left;
+ }
+.workbookUtilTableWrap{
+	width:70%;
+	float:left;
+	}
+	/*twoColumnLayout Right panel*/
+	.rightHalfColumn,.rightColumn{
+		position:absolute;
+		width:350px;
+		right:-353px;
+		top:0;
+	}
+	.leftHalfColumn{
+		width:100%;
+		float:none;
+	}
+.cimm_popRightMenu{
+	display:block;
+}
+	.cimmv4-logo {
+		width: 40px;
+		height: 40px;
+		margin: 30px 20px;
+		padding: 0;
+	}
+	
+	.customer-logo {
+		margin: 25px 0 0 0;
+		text-align: center;
+		padding: 0;
+	}
+	
+	.top-menu-grey > ul > li {
+		padding: 20px 10px;
+	}
+	
+	.header-right-icons {
+		padding-right: 0;
+	}
+	
+	.search-wrap {
+		margin-right: 0;
+	}
+	
+	.header-right {
+		width: 24%;
+	}
+	
+	.dashboardContentWrap {
+		width: 90%;
+		margin: 20px auto 90px auto;
+	}
+	
+	/* 3-col layout */
+	.contentWrap, .Cimm-Column-Wrap {
+		position:relative;
+		min-height: 800px;
+		background-color:#ebebeb;
+	} 
+    .Cimm-Column-Left, .leftColumn, .leftMenuColumn {
+		float: none;
+		width: 340px;
+		position: absolute;
+		left: -333px;
+		z-index: 1;
+		top: 0px;
+	}
+	
+	.leftSliderPush {
+		left: 335px;
+	}
+	
+	.Cimm-Column-Center, .bodyColumn, .rightBodyContent {
+		width: 98%;
+		margin: 0 auto;
+		float: none;
+	}
+	
+	.Cimm-Column-Right, .rightColumn {
+		float: none;
+		width: 340px;
+		position: absolute;
+		right: -335px;
+		z-index: 1;
+		top: 0px;
+	}
+	
+	.rightSliderPush {
+		right: 335px;
+	}
+	
+	.sliderLeftArrow {
+		background: url('../images/in-active-icons/right-arrow.png') no-repeat;
+		background-size: 6px 10px;
+	} 
+	
+	.sliderRightArrow {
+		background: url('../images/in-active-icons/left-arrow.png') no-repeat;
+		background-size: 6px 10px;
+	}
+	
+	.rightSliderRightArrow {
+		background: url('../images/in-active-icons/left-arrow.png') no-repeat;
+		background-size: 6px 10px;
+	}
+	
+	.rightSliderLeftArrow {
+		background: url('../images/in-active-icons/right-arrow.png') no-repeat;
+		background-size: 6px 10px;
+	}
+	
+	/* 3-col layout */
+	
+	/*left-Col bodyContent*/
+	.Cimm-categoryTabContainer{
+		width: 98% !important;
+	}
+	/*left-Col bodyContent*/
+	
+	/* dashboard page */
+	.dashboardContent > ul {
+		width: 100% !important;
+		min-height: 100% !important;
+		margin: 0 !important;
+	}
+	
+	.advanceSearchExpand {
+		top: 0;
+		right: 680px;
+	}
+	
+	.gridster .gs-w[data-sizex="1"] {
+		width: 48%;
+	}
+		
+	.gridster .gs-w[data-col="1"] {
+		left: 0%;
+	}
+	
+	.gridster .gs-w[data-col="2"] {
+		left: 50%;
+	}
+	
+	#pieChartLoc, #taxonomyChartCanvas, #customerChartCanvas, #customerChartCanvasOnDate, #manufacturerChartCanvasOnDate, #brandChartCanvasOnDate, #categoriesChartCanvasOnDate {
+		width: 200px !important;
+		height: 100px !important;
+	}
+	
+	#itemChartCanvasOnDate {
+		width: 250px !important;
+		height: 120px !important;
+	}
+	
+	.dashboardContentWrap {
+		min-height: 1030px;
+	}
+	
+	/* CMS */
+	
+	.gmControlsCustomClass {
+		width: 550px;
+		top: -80px !important;
+		left: 50%;
+		margin-left: -275px;
+	}
+	
+	.readyTemplatesForm {
+		float: none !important;
+		position: static !important;
+		right: auto !important;
+		top: auto !important;
+		margin-top: 0 !important;
+	}
+	
+	.sampleTemplateSlider {
+		width: 540px !important;
+		position: absolute !important;
+		right: 50% !important;
+		margin-right: -270px !important;
+		top: 20px !important;
+	}
+	
+	.cimm_saveIcon, .cimm_downloadIcon, .cimm_addNewIcon, .cimm_cloneIcon, .cimm_delIcon {
+		margin: 5px 4px;
+	}
+	.cimm_srcCodeIcon, .cimm_previewIcon {
+		margin: 10px 4px 5px 4px;
+	}
+	
+	.staticLbl {
+		width: 100% !important;
+	}
+	
+	.leftIcons_container {
+		width: 240px !important;
+		z-index: 2;
+	}
+	
+		/* attributes list */
+	.cimmAttributesColumn1 {
+		width: 78%;
+	}
+	
+	.cimmAttributesColumn2 {
+		width: 20%;
+		margin-left: 1%;
+	}
+	
+	.responsiveTable, .responsiveTable thead, .responsiveTable tbody, .responsiveTable th, .responsiveTable td, .responsiveTable tr { 
+		display: block; 
+	}
+	
+	.responsiveTable .cimmEditCategoryLabel, .responsiveTable .cimmEditCategoryText, .responsiveTable .cimmEditCategoryTextArea {
+		width: 100%;
+	}
+	
+	.cimmCategoryImageWrap, .cimmCategoryImageWrap img {
+		width: 100%;
+		height: auto;
+	}
+	
+	.cimmGridColumn1 {
+		width: 20%;
+	}
+	
+	.cimmGridColumn2 {
+		width: 39%;
+	}
+	.cimmGridColumn3 {
+		width: 39%;
+	}
+	
+	.cimmCategorySearch ul li input[type="text"] {
+		width: 260px;
+	}
+	
+	.ResponsiveTextField {
+		width: 100% !important;
+	}
+	
+	/* banner management */
+
+	.cms_bannerTopWrap ul > form > li {
+		margin-bottom: 25px !important;
+	}
+	
+	
+	/* linked item tab */
+	
+	.linkedTabColLeft {
+		width: 49% !important;
+		float: left !important;
+	}
+	
+	.linkedTabColRight {
+		width: 49% !important;
+		float: right !important;
+		margin: 0;
+	}
+	
+	.linkedTabColRight .rich-panel {
+		width: 100% !important;
+	}
+	
+	
+	#SEOPageTitle textarea, #SEOdescription textarea, #SEOURL textarea, #SEOKeywords textarea {
+		width: 100%;
+	}
+	
+	#seoTab {
+		padding: 10px !important;
+	}
+	
+	#seoTab ul {
+		margin-right: 0 !important;
+		width: 100%;
+	}
+	
+	.BannerSearchBox {
+		float: left !important;
+	}
+	.exportLabel-box{
+		width:35%;
+	}
+}
+
+@media (max-width:1365px) and (min-width:1200px) {
+.custom-export-widget{
+	float:left;
+	width: 49%;
+}
+.custom-export-mapformat{
+	float:left;
+	width:33%;
+}	
+.workbookUtilTreeWrap{
+	 width:30%;
+	 float:left;
+ }
+.workbookUtilTableWrap{
+	width:70%;
+	float:left;
+	}
+.ListDataSyncWrap,.setMarginZero{
+	margin-top:0 !important;
+}
+	/*twoColumnLayout Right panel*/
+	.rightHalfColumn{
+		
+		position:absolute;
+		width:350px;
+		right:-350px;
+		top:0;
+	}
+	
+	.leftHalfColumn{
+		width:100%;
+		float:none;
+	}
+	
+	.cimm_popRightMenu{
+		display:block;
+	}
+
+	.cimmv4-logo {
+		width: 40px;
+		height: 40px;
+		margin: 30px 20px;
+		padding: 0;
+	}
+	
+	.customer-logo {
+		margin: 35px 0 0 0;
+		text-align: center;
+		padding: 0;
+		width: 15%;
+	}
+	.customer-logo > img{
+		height:auto;
+		width:85%;
+	}
+	.top-menu-grey > ul > li {
+		padding: 20px 10px;
+	}
+	
+	.header-right-icons {
+		padding-right: 0;
+	}
+	
+	.search-wrap {
+		margin-right: 0;
+	}
+	
+	.header-right {
+		width: 24%;
+	}
+	
+	.touch-icon {
+		padding: 18px 10px 20px 10px;
+	}
+	
+	.manageSiteTopMenu, .navigationBar ul li {
+		padding: 61px 12px 17px 12px;
+	}
+	
+	.dashboardContentWrap {
+		width: 95%;
+		margin: 20px auto 90px auto;
+	}
+	
+	/* 3-col layout */
+	.contentWrap, .Cimm-Column-Wrap {
+		position:relative;
+		min-height: 800px;
+	} 
+	.Cimm-Column-Left, .leftColumn, .leftMenuColumn {
+		float: none;
+		width: 340px;
+		position: absolute;
+		left: -333px;
+		z-index: 1;
+		top: 0px;
+	}
+	
+	.leftSliderPush {
+		left: 335px;
+	}
+	
+	.Cimm-Column-Center, .bodyColumn, .rightBodyContent {
+		width: 98%;
+		margin: 0 auto;
+		float: none;
+	}
+	
+	.Cimm-Column-Right, .rightColumn {
+		float: none;
+		width: 340px;
+		position: absolute;
+		right: -335px;
+		z-index: 1;
+		top: 0px;
+	}
+	
+	.rightSliderPush {
+		right: 335px;
+	}
+	
+	.sliderLeftArrow {
+		background: url('../images/in-active-icons/right-arrow.png') no-repeat;
+		background-size: 6px 10px;
+	} 
+	
+	.sliderRightArrow {
+		background: url('../images/in-active-icons/left-arrow.png') no-repeat;
+		background-size: 6px 10px;
+	}
+	
+	.rightSliderRightArrow {
+		background: url('../images/in-active-icons/left-arrow.png') no-repeat;
+		background-size: 6px 10px;
+	}
+	
+	.rightSliderLeftArrow {
+		background: url('../images/in-active-icons/right-arrow.png') no-repeat;
+		background-size: 6px 10px;
+	}
+	
+	.topContent {
+		width: 98%;
+		padding: 0;
+		margin: auto;
+	}
+	
+	.twoColNav .topNav_left {
+		width: 50%;
+	} 
+	
+	.twoColNav .topNav_middle {
+		width: auto;
+		margin: 0;
+	} 
+	
+	.twoColNav .topNav_right {
+		width: 30%;
+	}
+	
+	.threeColNav .breadCrumbs {
+		float: none;
+	}
+	
+	.threeColNav .topNav_left {
+		width: 100%;
+		float: none;
+	} 
+	.threeColNav .topNav_middle {
+		margin: 0;
+	}
+	.threeColNav .topNav_middle .displayStatus {
+		margin: 0;
+	}
+	
+	.threeColNav .topNav_right {
+		width: 25%;
+	} 
+	
+	/* 3-col layout */
+	
+	/*left-Col bodyContent*/
+	.Cimm-categoryTabContainer{
+		width: 98% !important;
+	}
+	/*left-Col bodyContent*/
+	
+	/* dashboard page */
+	.dashboardContent > ul {
+		width: 100% !important;
+		min-height: 100% !important;
+		margin: 0 !important;
+	}
+	
+	
+	.dashboardContent ul li {
+		position: static !important;
+		width: 100% !important;
+	}
+	
+	/* CMS */
+	
+	.gmControlsCustomClass {
+		width: 550px;
+		top: -60px !important;
+		left: 50%;
+		margin-left: -275px;
+	}
+	
+	.readyTemplatesForm {
+		float: none !important;
+		position: static !important;
+		right: auto !important;
+		top: auto !important;
+		margin-top: 0 !important;
+	}
+	
+	.sampleTemplateSlider {
+		width: 540px !important;
+		position: absolute !important;
+		right: 50% !important;
+		margin-right: -270px !important;
+		top: 20px !important;
+	}
+	
+	.cimm_saveIcon, .cimm_downloadIcon, .cimm_addNewIcon, .cimm_cloneIcon, .cimm_delIcon {
+		margin: 5px 4px;
+	}
+	.cimm_srcCodeIcon, .cimm_previewIcon {
+		margin: 10px 4px 5px 4px;
+	}
+	
+	.staticLbl {
+		width: 100% !important;
+	}
+	
+	.leftIcons_container {
+		width: 240px !important;
+		z-index: 2;
+	}
+	
+	/* attributes list */
+	.cimmAttributesColumn1 {
+		width: 75%;
+	}
+	
+	.cimmAttributesColumn2 {
+		width: 23%;
+		margin-left: 1%;
+	}
+	
+	.responsiveTable, .responsiveTable thead, .responsiveTable tbody, .responsiveTable th, .responsiveTable td, .responsiveTable tr { 
+		display: block; 
+	}
+	
+	.responsiveTable .cimmEditCategoryLabel, .responsiveTable .cimmEditCategoryText, .responsiveTable .cimmEditCategoryTextArea {
+		width: 100%;
+	}
+	
+	.cimmCategoryImageWrap, .cimmCategoryImageWrap img {
+		width: 100%;
+		height: auto;
+	}
+	
+	.cimmGridColumn1 {
+		width: 20%;
+	}
+	
+	.cimmGridColumn2 {
+		width: 39%;
+	}
+	.cimmGridColumn3 {
+		width: 39%;
+	}
+	
+	.cimmCategorySearch ul li input[type="text"] {
+		width: 160px;
+	}
+	
+	/* user management */
+	
+	.editUserTabForm {
+		width: 100%;
+		margin: 0;
+		padding: 10px;
+	}
+	
+	.editUser-left {
+		margin-right:1%;
+	}
+	
+	.editUser-right {
+		margin-left:1%;
+	}
+	
+	.personal-details-wrap, .contact-details-wrap, .address-details-wrap, .other-param-wrap {
+		padding: 10px;
+	}
+	
+	.editGeneralUserNameLabel, .editGeneralFirstNameLabel, .editMiddleNameLabel, 
+	.editLastNameLabel, .editEmailLabel, .editOfficePhLabel, .editCellPhLabel, .editFaxLabel, 
+	.editAddr1Label, .editAddr2Label, .editCountryLabel, .editCityLabel, .editStateLabel, .editZipCodeLabel, 
+	.editERPIdLabel, .editBuyingComLabel, .editSiteNameLabel, .editAddr1LabelTxtArea {
+		width: 25%;
+		
+	}
+	
+	.editGeneralUserNameTxtBox, .editGeneralFirstNameTxtBox, .editMiddleNameTxtBox, .editLastNameTxtBox, 
+	.editEmailTxtBox, .editOfficePhTxtBox, .editCellPhTxtBox, .editFaxTxtBox, .editAddr1LabelTxtArea, 
+	.editCountrySelect, .editCityTxtBox, .editStateTxtBox, .editZipCodeTxtBox, .editERPIdTxtBox, 
+	.editBuyingComSelect, .editSiteNameSelect {
+		width: 75%;
+	}
+	
+	.editGeneralUserNameTxtBox > input[type="text"], .editGeneralFirstNameTxtBox > input[type="text"], 
+	.editMiddleNameTxtBox >input[type="text"], .editLastNameTxtBox > input[type="text"], .editEmailTxtBox > input[type="text"], 
+	.editOfficePhTxtBox > input[type="text"], .editCellPhTxtBox > input[type="text"], .editFaxTxtBox > input[type="text"], 
+	.editAddr1LabelTxtArea textarea, .editAddr1LabelTxtArea textarea, .editCountrySelect select, .editCityTxtBox > input[type="text"], 
+	.editStateTxtBox > input[type="text"], .editZipCodeTxtBox > input[type="text"], .editBuyingComSelect > select, .editSiteNameSelect select, 
+	.editERPIdTxtBox > input[type="text"] {
+		width: 100%;
+	}
+	
+	.ResponsiveTextField {
+		width: 100% !important;
+	}
+	
+	.topNav_leftHalfColumn .breadCrumbs {
+		width: 100%;
+		float: none;
+	}
+	
+	.topNav_leftHalfColumn .centerPanelLeftIcons {
+		padding-left: 0 !important;
+	}
+	
+	.advanceSearchExpand {
+		top: 0;
+		right: 680px;
+	}
+	
+	/* banner management */
+	.cms_bannerTopWrap ul > form > li {
+		margin-bottom: 25px !important;
+	}
+	
+	/* linked item tab */
+	
+	.linkedTabColLeft {
+		width: 49% !important;
+		float: left !important;
+	}
+	
+	.linkedTabColRight {
+		width: 49% !important;
+		float: right !important;
+		margin: 0;
+	}
+	
+	.linkedTabColRight .rich-panel {
+		width: 100% !important;
+	}
+	
+	#SEOPageTitle textarea, #SEOdescription textarea, #SEOURL textarea, #SEOKeywords textarea {
+		width: 100%;
+	}
+	
+	#seoTab {
+		padding: 10px !important;
+	}
+	
+	#seoTab ul {
+		margin-right: 0 !important;
+		width: 100%;
+	}
+	
+	#seoValidatorButton {
+		width: 100%;
+		display: block;
+		margin-bottom: 10px;
+	}
+	
+	#keywordChecker{
+		width: 100%;
+		display: block;
+	}
+	
+	.BannerSearchBox {
+		float: left !important;
+	}
+	.cimmLabel-input{
+		width:94%;
+	}
+	.exportLabel-box{
+		width:45%;
+	}
+	
+	
+}
+
+@media (max-width:1200px) and (min-width:1024px) {
+div.navigationBar ul li  ul li > a,
+div.navigationBar ul li ul li ul li > a,
+div.navigationBar ul li ul li ul li ul li > a,
+div.navigationBar ul li ul li > span,
+div.navigationBar ul li ul li ul li > span,
+div.navigationBar ul li ul li ul li ul li > span,
+div.navigationBar ul li ul li > span{
+	padding: 7px;
+}
+
+.workbookUtilTreeWrap{
+	 width:35%;
+	 float:left;
+ }
+.workbookUtilTableWrap{
+	width:65%;
+	float:left;
+	}
+.ListDataSyncWrap,.setMarginZero{
+	margin-top:0 !important;
+}	
+		/*twoColumnLayout Right panel*/
+	.rightHalfColumn{
+		
+		position:absolute;
+		width:350px;
+		right:-350px;
+		top:0;
+	}
+	
+	.leftHalfColumn{
+		width:98%;
+		float:none;
+	}
+	
+	.cimm_popRightMenu{
+		display:block;
+	}
+	.cimmv4-logo {
+		width: 40px;
+		height: 40px;
+		margin: 30px 20px;
+		padding: 0;
+	}
+	
+	.customer-logo {
+		margin: 35px 0 0 0;
+		text-align: center;
+		padding: 0;
+		width: 20%;
+	}
+	.customer-logo > img{
+		height:auto;
+		max-width:90%;
+	}
+	.top-menu-grey > ul > li {
+		padding: 20px 10px;
+	}
+	
+	.header-right {
+		display: none;
+	}
+	
+	.deviceMenu {
+		display: block;
+	}
+	
+	.deviceMenuContent .search-wrap {
+		margin-top: 6px;
+	}
+	
+	.deviceMenuContent .header-right-icons {
+		padding-top: 10px;
+	}
+	
+	/* 3-col layout */
+	.contentWrap, .Cimm-Column-Wrap {
+		position:relative;
+		min-height: 800px;
+	} 
+	.Cimm-Column-Left, .leftColumn, .leftMenuColumn {
+		float: none;
+		width: 340px;
+		position: absolute;
+		left: -335px;
+		z-index: 999;
+		top: 0px;
+	}
+	
+	.leftSliderPush {
+		left: 335px;
+	}
+	
+	.Cimm-Column-Center, .bodyColumn, .rightBodyContent {
+		width: 98%;
+		margin: 0 auto;
+		float: none;
+	}
+	
+	.Cimm-Column-Right, .rightColumn {
+		float: none;
+		width: 340px;
+		position: absolute;
+		right: -335px;
+		z-index: 999;
+		top: 0px;
+	}
+	
+	.rightSliderPush {
+		right: 335px;
+	}
+	
+	.sliderLeftArrow {
+		background: url('../images/in-active-icons/right-arrow.png') no-repeat;
+		background-size: 6px 10px;
+	} 
+	
+	.sliderRightArrow {
+		background: url('../images/in-active-icons/left-arrow.png') no-repeat;
+		background-size: 6px 10px;
+	}
+	
+	.rightSliderRightArrow {
+		background: url('../images/in-active-icons/left-arrow.png') no-repeat;
+		background-size: 6px 10px;
+	}
+	
+	.rightSliderLeftArrow {
+		background: url('../images/in-active-icons/right-arrow.png') no-repeat;
+		background-size: 6px 10px;
+	}
+	
+	.topContent {
+		width: 98%;
+		padding: 0;
+		margin: auto;
+	}
+	
+	.breadCrumb_parent {
+		padding-left: 0;
+	} 
+	
+	.twoColNav .topNav_left {
+		width: 50%;
+	} 
+	
+	.twoColNav .topNav_middle {
+		width: auto;
+		margin: 0;
+	} 
+	
+	.twoColNav .topNav_right {
+		width: 30%;
+	}
+	
+	.threeColNav .breadCrumbs {
+		float: none;
+	}
+	
+	.threeColNav .topNav_left {
+		width: 100%;
+		float: none;
+	} 
+	.threeColNav .topNav_middle {
+		margin: 0;
+	}
+	.threeColNav .topNav_middle .displayStatus {
+		margin: 0;
+	}
+	
+	.threeColNav .topNav_right {
+		width: 25%;
+	} 
+	
+	.topNav_rightHalfColumn {
+		width: auto;
+		margin-bottom: 5px;
+	}
+	
+	/* 3-col layout */
+	
+	/*left-Col bodyContent*/
+	.Cimm-categoryTabContainer{
+		width: 98% !important;
+	}
+	/*left-Col bodyContent*/
+	
+	.rich-tabpanel, .rich-tabpanel-content-position {
+		table-layout: fixed;
+	} 	
+	
+	.tab_ColumnRight {
+		margin-top: 10px;
+	}
+	
+	.divEditable, .divEditableText, .rich-table tbody tr td > input[type=text], .list-search ul li input{
+		width: 100%;
+	}
+	
+	.editform-wrap {
+		overflow-x: auto;
+		overflow-y: hidden;
+	}
+	
+	.editWH-textbox > input[type=text], .editWH-textbox > select, .editWH-textbox textarea {
+		width: 100%;
+	}
+	
+	/* dashboard page */
+	.dashboardContent > ul {
+		width: 100% !important;
+		min-height: 100% !important;
+		margin: 0 !important;
+	}
+	
+	
+	.dashboardContent ul li {
+		position: static !important;
+		width: 100% !important;
+	}
+	
+	
+	/* CMS */
+	
+	.gmControlsCustomClass {
+		width: 550px;
+		top: -40px !important;
+		left: 50%;
+		margin-left: -275px;
+	}
+		
+	.readyTemplatesForm {
+		float: none !important;
+		position: static !important;
+		right: auto !important;
+		top: auto !important;
+		margin-top: 0 !important;
+	}
+	
+	.sampleTemplateSlider {
+		width: 540px !important;
+		position: absolute !important;
+		right: 50% !important;
+		margin-right: -270px !important;
+		top: 50px !important;
+	}
+	
+	.cimm_saveIcon, .cimm_downloadIcon, .cimm_addNewIcon, .cimm_cloneIcon, .cimm_delIcon {
+		margin: 5px 4px;
+		width: 23px;
+	}
+	.cimm_srcCodeIcon, .cimm_previewIcon {
+		margin: 10px 3px 5px 3px;
+		width: 23px;
+		background-size: contain;
+	}
+	
+	.staticLbl {
+		width: 100% !important;
+	}
+	.leftIcons_container {
+		width: 240px !important;
+		z-index: 2;
+	}
+	
+	/* attributes list */
+	.cimmAttributesColumn1 {
+		width: 75%;
+	}
+	
+	.cimmAttributesColumn2 {
+		width: 23%;
+		margin-left: 1%;
+	}
+.taxCategDetailTbl td:nth-child(2),.taxCategDetailTbl td:nth-child(1){
+	width:100%;
+	}	
+	.responsiveTable, .responsiveTable thead, .responsiveTable tbody, .responsiveTable th, .responsiveTable td, .responsiveTable tr { 
+		display: block; 
+	}
+	
+	.responsiveTable .cimmEditCategoryLabel, .responsiveTable .cimmEditCategoryText, .responsiveTable .cimmEditCategoryTextArea {
+		width: 100%;
+	}
+	
+	.cimmCategoryImageWrap, .cimmCategoryImageWrap img {
+		width: 100%;
+		height: auto;
+	}
+	
+	.cimmGridColumn1 {
+		width: 22%;
+	}
+	
+	.cimmGridColumn2 {
+		width: 37%;
+	}
+	.cimmGridColumn3 {
+		width: 39%;
+	}
+	
+	.cimmCategorySearch ul li input[type="text"] {
+		width: 100%;
+	}
+	
+	.cimmGridColumn2 .cimmAllAttributesTable tbody td.rich-table-cell:first-child {
+		width: 180px !important;
+	}
+	
+	.cimmGridColumn3 .cimmEditCategoryTable tbody td div.rich-panel .rich-table tbody td.rich-table-cell div {
+		width: 60px !important;
+	}
+	
+	.cimmGridColumn3 .cimmEditCategoryTable tbody td div.rich-panel .rich-table tbody td.rich-table-cell .actionIcon {
+		padding: 8px 4px;
+	}
+	
+	/* user management */
+	
+	.editUserTabForm {
+		width: 100%;
+		margin: 0;
+		padding: 10px;
+	}
+	
+	.editUser-left {
+		margin-right:1%;
+	}
+	
+	.editUser-right {
+		margin-left:1%;
+	}
+	
+	.personal-details-wrap, .contact-details-wrap, .address-details-wrap, .other-param-wrap {
+		padding: 10px;
+	}
+	
+	.editGeneralUserNameLabel, .editGeneralFirstNameLabel, .editMiddleNameLabel, 
+	.editLastNameLabel, .editEmailLabel, .editOfficePhLabel, .editCellPhLabel, .editFaxLabel, 
+	.editAddr1Label, .editAddr2Label, .editCountryLabel, .editCityLabel, .editStateLabel, .editZipCodeLabel, 
+	.editERPIdLabel, .editBuyingComLabel, .editSiteNameLabel, .editAddr1LabelTxtArea {
+		width: 25%;
+		
+	}
+	
+	.editGeneralUserNameTxtBox, .editGeneralFirstNameTxtBox, .editMiddleNameTxtBox, .editLastNameTxtBox, 
+	.editEmailTxtBox, .editOfficePhTxtBox, .editCellPhTxtBox, .editFaxTxtBox, .editAddr1LabelTxtArea, 
+	.editCountrySelect, .editCityTxtBox, .editStateTxtBox, .editZipCodeTxtBox, .editERPIdTxtBox, 
+	.editBuyingComSelect, .editSiteNameSelect {
+		width: 75%;
+	}
+	
+	.editGeneralUserNameTxtBox > input[type="text"], .editGeneralFirstNameTxtBox > input[type="text"], 
+	.editMiddleNameTxtBox >input[type="text"], .editLastNameTxtBox > input[type="text"], .editEmailTxtBox > input[type="text"], 
+	.editOfficePhTxtBox > input[type="text"], .editCellPhTxtBox > input[type="text"], .editFaxTxtBox > input[type="text"], 
+	.editAddr1LabelTxtArea textarea, .editAddr1LabelTxtArea textarea, .editCountrySelect select, .editCityTxtBox > input[type="text"], 
+	.editStateTxtBox > input[type="text"], .editZipCodeTxtBox > input[type="text"], .editBuyingComSelect > select, .editSiteNameSelect select, 
+	.editERPIdTxtBox > input[type="text"] {
+		width: 100%;
+	}
+	
+	.ResponsiveTextField {
+		width: 100% !important;
+	}
+	
+	.topNav_leftHalfColumn .breadCrumbs {
+		width: 100%;
+		float: none;
+	}
+	
+	.topNav_leftHalfColumn .centerPanelLeftIcons {
+		padding-left: 0 !important;
+	}
+	.view-addr1Label, .view-addr2Label, .view-cityLabel, .view-stateLabel, .view-zipLabel, .view-countryCodeLabel, .view-phoneLabel, .view-shipIdLabel, .view-defaultAddrLabel {
+		float: left;
+		padding: 5px;
+		width:40%;
+	}
+	
+	.view-addr1TxtArea textarea, .view-addr2TxtArea textarea, .view-cityTxtBox > input[type="text"], .view-stateTxtBox > input[type="text"], .view-zipTxtBox > input[type="text"], .view-countryCodeSelect select, .view-phoneTxtBox > input[type="text"], .view-shipIdTxtBox > input[type="text"] {
+	  width: 235px;
+	}
+	/* banner management */
+	
+	.cms_bannerTopWrap ul > form > li {
+		margin-bottom: 25px !important;
+	}
+	
+	.cms_bannerTopWrap ul > form > li:nth-child(7){
+		margin-left: 0 !important;
+	}
+	
+	.advanceSearchExpand {
+		top: 0;
+		right: 680px;
+	}
+	
+	/* linked item tab */
+	
+	.linkedTabColLeft {
+		width: 49% !important;
+		float: left !important;
+	}
+	
+	.linkedTabColRight {
+		width: 49% !important;
+		float: right !important;
+		margin: 0;
+	}
+	
+	.linkedTabColRight .rich-panel {
+		width: 100% !important;
+	}
+	
+	.linkedTabColLeft .linkeditemTab-attributes {
+		padding: 0 !important;
+		margin: 10px 0;
+	}
+	
+	.linkedTabColRight .linkedItemNote, .linkedTabColRight .linkedItemLinkType {
+		width: 100%;
+		float: none !important;
+	}
+	
+	.linkedTabColRight .linkedItemNote fieldset {
+		padding-left: 0;
+	}
+	
+	.itemListTable .linkeditemTab-attributes {
+		padding: 0 !important;
+		margin: 5px 0;
+	}
+	
+	#SEOPageTitle textarea, #SEOdescription textarea, #SEOURL textarea, #SEOKeywords textarea {
+		width: 100%;
+	}
+	
+	#seoTab {
+		padding: 10px !important;
+	}
+	
+	#seoTab ul {
+		margin-right: 0 !important;
+		width: 100%;
+	}
+	
+	#seoValidatorButton {
+		width: 100%;
+		display: block;
+		margin-bottom: 10px;
+	}
+	
+	#keywordChecker{
+		width: 100%;
+		display: block;
+	}
+	
+	.BannerSearchBox {
+		float: left !important;
+	}
+	.cimmLabel-input{
+		width:93%;
+	}
+	.exportLabel-box{
+		width:50%;
+	}
+	
+}
+@media (max-width:1023px) {
+	/*header*/
+	.mainContainer, .bodyContentWrap {
+		width: 100%;
+	}	
+	.header-wrap {
+		width: 100%;
+		height:auto;
+	}	
+	.cimmv4-logo {
+		width: 40px;
+		height: 40px;
+		margin: 10px 20px;
+		padding: 0;
+	}	
+	.customer-logo {
+		margin: 10px 0 0 0;
+		text-align: center;
+		padding: 0;
+		width:30%;
+	}	
+	.customer-logo > img{
+		height:auto;
+		max-width: 100%;
+	}	
+	.header-right {
+		display: none;
+	}	
+	.deviceMenu {
+		display: block;
+		margin:10px 20px 0 0;
+	}	
+	.deviceMenuContent{
+		top:62px;
+	}	
+	.deviceMenuContent .header-right-icons {
+		padding-top: 10px;
+	}	
+	.blue-menuLinks{
+		display:block;
+		top:62px;		
+	}
+	.blue-menuLinks .top-menu-blue{
+	 	display:block;
+	 }	 
+	.blue-menuLinks .top-menu-grey{
+		display:block;
+		padding:0;
+	}	
+	.top-menu-grey, .top-menu-blue{
+		display:none;
+	}	
+	.touch-icon{
+		padding: 5px 20px 4px 25px;
+	}	
+	.manageSiteTopMenu, .navigationBar ul li{
+		padding: 30px 20px 4px 20px;
+	}
+	.manageSiteTopMenu > a, .navigationBar ul li a{
+		font-size:12px;
+	}	
+	.top-menu-grey > ul > li{
+		  padding: 31px 20px 4px 20px;
+	}	
+	.mainMenu > li > a{
+		color:#fff;
+		font-size:12px;
+	}	
+	.manageSiteTopMenu > ul, ul.mainMenu > li:hover > .dropDownMenu{
+		top:53px;
+	}	
+	.blue-menuLinks	div.navigationBar ul li ul,.blue-menuLinks div.navigationBar ul li ul li ul,.blue-menuLinks div.navigationBar ul li ul li ul li ul{
+		top:52px;
+	}	
+	.top-menu-grey > ul > li:hover {
+		background: #FFF;
+ 		border-top-left-radius: 12px;
+  		border-top-right-radius: 12px;
+  		-moz-border-top-left-radius: 12px;
+  		-moz-border-top-right-radius: 12px;
+  		-webkit-border-top-left-radius: 12px;
+  		-webkit-border-top-right-radius: 12px;
+  		cursor: pointer;
+	}	
+	.top-menu-grey > ul > li:hover a {
+  		color: #444;
+	}	
+	.deviceMenuContent > ul{
+		height:53px;
+	}
+	/*header*/
+	
+	/*dashboard*/
+	.dashboardContent > ul{
+		width:100% !important;
+		min-height: 100% !important;
+		margin: 0 !important;
+	}	
+	.dashboardContent ul li{
+		position: static !important;
+  		width: 100% !important;
+	}
+	.dashboardContent h4{
+		font-size:12px;
+	}
+	/*dashboard*/
+	
+	/*Auto Suggest Management*/
+	
+	.topNav_left {
+		float: left;
+		width: 30%;
+	}
+	.topNav_rightHalfColumn {
+	  width: auto;
+	}
+	.leftHalfColumn {
+	  width: 99%;
+	  float: none;
+	}
+	.rightHalfColumn {
+	  position: absolute;
+	  width: 350px;
+	  right: -350px;
+	  top: 0;
+	}
+	.cimm_popRightMenu{
+		display: block;		
+	}
+	.contentWrap, .Cimm-Column-Wrap {
+	  position: relative;
+	  min-height: 740px;
+	}
+	.Cimm-Column-Left, .leftColumn, .leftMenuColumn {
+		float: none;
+		width: 340px;
+		position: absolute;
+		left: -335px;
+		z-index: 999;
+		top: 0px;
+	}
+	.Cimm-ColumnLeft-Content {
+		background-color: #fff;
+		min-height: 600px;
+		padding: 10px 0px 10px 10px;
+	}	
+	.Cimm-Column-Left, .leftColumn, .leftMenuColumn {
+		float: none;
+		width: 340px;
+		position: absolute;
+		left: -335px;
+		z-index: 999;
+		top: 0px;
+	}
+	.rightBodyContent{
+		width: 100%;
+		float: left;
+		border-radius: 5px;
+		min-height: 500px;
+		position: relative;	
+		margin:0px 5px;			
+	}
+	.leftSliderPush {
+	 	left: 335px;
+	}
+	.Cimm-Column-Right, .rightColumn {
+		float: none;
+		width: 340px;
+		position: absolute;
+		right: -335px;
+		z-index: 1;
+		top: 0px;
+	}
+	.rightSliderPush{
+		right:335px;
+	}
+	.Cimm-categoryTabContainer{
+		width:98% !important;
+	}
+	.cimmAttributesColumn1{
+		width:75%;
+	}
+	.cimmAttributesColumn2{
+		width:23%;
+		margin-left:1%;
+	}
+	.cimmGridColumn1{
+		width:97%;
+	}
+	.cimmGridColumn2 {
+  		width: 49%;
+		margin:1% 0;
+	}
+	.cimmGridColumn3 {
+  		width: 50%;
+		margin:1% 0;
+	}
+	.blogtabContainerLabel{
+		width:45%;
+	}
+	.blogtabContainerTxtBx{
+		width:50%;
+	}
+	.editMfrBrd-leftWrap, .editMfrBrd-rightWrap{
+		width:100%;
+	}
+	.DataCimmFieldsTable{
+		width: 100%;
+		margin-right: 1%;
+		float: left;
+	}
+	.DataSolrCoreTable {
+		width: 100%;
+		float: left;
+		margin-top: 10px;
+	}
+	ul.tableTopLeftIcons{
+		margin: 6px 0 0 10px;
+	}
+	.prefferd-searchin-right-wrap, .prefferd-searchin-left-wrap{
+		width: 100%;
+	}	 
+	.notificationLeftColumn{
+		width: 60% !important;
+	}
+	.notificationRightColumn{
+		width: 38% !important;		
+	}
+	div.navigationBar ul li ul, div.navigationBar ul li ul li ul, div.navigationBar ul li ul li ul li ul{
+		width: 170px;
+	}
+	div.navigationBar ul li:hover ul li:hover ul{
+		left: 160px;
+	}
+	.topNav_right{
+		width:auto;
+	}
+	.rightBodyContent{
+		width: 98%;
+		margin: 0 1%;
+	}
+	.wizard-content{
+		width: 100%;
+	}
+	.userwizard-subsetlist-left {
+		float: left;
+		width: 45%;
+		margin-left: 40px;
+	}
+	.userwizard-subsetlist-right{
+		width: 40%;
+		margin-left: 40px;
+		float:left;
+	}
+	.wizard-usergroup-wrap{
+		width: 75%;
+	}
+	.user-addition-info-wizard-content{
+		width: 80%;
+	}
+	.user-summary-left, .user-summary-right{
+		width: 48%;
+	}
+	/***Data Import/Export ***/
+	.container, .Cimm-MainContent{
+		margin-top:110px;
+	}
+	.cimmLabel-box{
+		float:none;
+		width:95%;
+		margin:0 auto;
+	}
+	.cimmDownload-box{
+		float:none;
+		width:95%;
+		margin:10px auto;
+	}
+	.cimmUpload-box{
+		width:95%;
+		margin:0 auto;
+	}
+	.cimmUpload-body .float-right{
+		float:none;
+	}
+	.exportLabel-box{
+		width:70%;
+		margin-left:2%;
+	}
+	/***Data Import/Export ***/
+	.Cimm-Column-Center, .bodyColumn, .rightBodyContent, .bodyContent {
+  		width: 98%;
+ 	 	margin: 0 auto;
+  		float: none;
+	}
+	.topNav_leftHalfColumn .breadCrumbs{
+		width:100%;
+	}
+	.divEditable, .divEditableText, .rich-table tbody tr td > input[type=text], .list-search ul li input{
+		width: 100%;
+	}
+	.cimm_saveIcon, .cimm_downloadIcon, .cimm_addNewIcon, .cimm_cloneIcon, .cimm_delIcon {
+		margin: 5px 4px;
+		width: 23px;
+	}
+	.editWH-textbox > input[type=text], .editWH-textbox > select, .editWH-textbox textarea {
+		width: 100%;
+	}
+	.codeMrrLeftWrap{
+		width: 60% !important;		
+	}
+	.codeMrrRightWrap{
+		width: 39% !important;
+	}
+	.manage-WebLinks-Content{
+		width: 40%;
+	}
+	.ManageLink-Form{
+		width: 45% !important;
+	}
+}
+
+
+/*@media (max-width:1023px) {
+	.mainContainer, .bodyContentWrap {
+		width: 1024px;
+	}
+	
+	.header-wrap {
+		width: 1024px;
+		position: static;
+	}
+	
+	.cimmv4-logo {
+		width: 40px;
+		height: 40px;
+		margin: 30px 20px;
+		padding: 0;
+	}
+	
+	.customer-logo {
+		margin: 35px 0 0 0;
+		text-align: center;
+		padding: 0;
+		width: 20%;
+	}
+	
+	.top-menu-grey > ul > li {
+		padding: 20px 10px;
+	}
+	
+	.header-right {
+		display: none;
+	}
+	
+	.deviceMenu {
+		display: block;
+	}
+	
+	.deviceMenuContent .search-wrap {
+		margin-top: 6px;
+	}
+	
+	.deviceMenuContent .header-right-icons {
+		padding-top: 10px;
+	}
+	
+	/* dashboard page */
+/*	.dashboardContent > ul {
+		width: 100% !important;
+		height: 100% !important;
+		margin: 0 !important;
+	}
+	
+	
+	.dashboardContent ul li {
+		position: static !important;
+		width: 100% !important;
+	}
+	
+	/* 3-col layout */
+/*	.contentWrap, .Cimm-Column-Wrap {
+		position:relative;
+		min-height: 800px;
+	} 
+	.Cimm-Column-Left, .leftColumn, .responsiveLeftCol {
+		float: none;
+		width: 340px;
+		position: absolute;
+		left: -333px;
+		z-index: 1;
+		top: 0px;
+	}
+	
+	.leftSliderPush {
+		left: 335px;
+	}
+	
+	.Cimm-Column-Center, .bodyColumn {
+		width: 1024px;
+		margin: 0 auto;
+		float: none;
+	}
+	
+	.Cimm-Column-Right, .rightColumn, .responsiveRightCol {
+		float: none;
+		width: 340px;
+		position: absolute;
+		right: -333px;
+		z-index: 1;
+		top: 0px;
+	}
+	
+	.rightSliderPush {
+		right: 335px;
+	}
+	
+	.sliderLeftArrow {
+		background: url('../images/in-active-icons/right-arrow.png') no-repeat;
+		background-size: 6px 10px;
+	} 
+	
+	.sliderRightArrow {
+		background: url('../images/in-active-icons/left-arrow.png') no-repeat;
+		background-size: 6px 10px;
+	}
+	
+	.rightSliderRightArrow {
+		background: url('../images/in-active-icons/left-arrow.png') no-repeat;
+		background-size: 6px 10px;
+	}
+	
+	.rightSliderLeftArrow {
+		background: url('../images/in-active-icons/right-arrow.png') no-repeat;
+		background-size: 6px 10px;
+	}
+	
+	.topContent {
+		width: 98%;
+		padding: 0;
+		margin: auto;
+	}
+	
+	.breadCrumb_parent {
+		padding-left: 0;
+	} 
+	
+	.twoColNav .topNav_left {
+		width: 50%;
+	} 
+	
+	.twoColNav .topNav_middle {
+		width: auto;
+		margin: 0;
+	} 
+	
+	.twoColNav .topNav_right {
+		width: 30%;
+	}
+	
+	.threeColNav .breadCrumbs {
+		float: none;
+	}
+	
+	.threeColNav .topNav_left {
+		width: 100%;
+		float: none;
+	} 
+	.threeColNav .topNav_middle {
+		margin: 0;
+	}
+	.threeColNav .topNav_middle .displayStatus {
+		margin: 0;
+	}
+	
+	.threeColNav .topNav_right {
+		width: 25%;
+	} 
+	
+	.topNav_rightHalfColumn {
+		width: auto;
+		margin-bottom: 5px;
+	}
+	
+	/* 3-col layout */
+/*	
+}*/
